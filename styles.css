@@ -1,0 +1,300 @@
+
+/* --- General Reset and Font Setup --- */
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    overflow-y: visible; /* Prevents body from scrolling */
+    background-color: #e9ecef;
+}
+
+/* --- Homepage Styling --- */
+.homepage-title {
+    font-weight: 700;
+    font-size: 4rem;
+    color: #ffeb3b;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+}
+
+.homepage-text {
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #ffffff;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.6);
+}
+
+/* --- Background Album Collage for Homepage --- */
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-image: url('https://i.imgur.com/JsDbBot.png');
+    background-size: cover;
+    background-position: top;
+    z-index: -2; /* Sit behind the content */
+}
+
+/* --- Navigation Bar --- */
+.navbar {
+    background-color: black;
+    padding: 10px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+.navbar-brand {
+    margin-right: auto; /* Pushes the brand link to the left */
+    padding-left: 10px; /* Adjust for fine-tuning */
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    border-radius: 5px; /* Rounded edges for links */
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+.navbar a:hover {
+    background-color: #bb86fc; /* Light purple on hover */
+}
+
+/* --- Hero Section --- */
+.hero-section {
+    position: relative; /* Allows it to scroll with the page */
+    text-align: center;
+    padding: 120px 20px;
+    min-height: 100vh;
+    background: rgba(0, 0, 0, 0.4); /* Semi-transparent background for readability */
+    z-index: 1; /* Sit above the background */
+    color: white
+}
+
+.hero-section h1 {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.6);
+    opacity: 0.9; /* Slight transparency */
+}
+.hero-section p {
+    font-size: 1.2rem;
+    max-width: 800px; /* Restricts width for better readability */
+    margin: 0 auto;
+    line-height: 1.8;
+    opacity: 0.8;
+}
+
+/* --- CTA Buttons --- */
+.cta-buttons {
+    margin-top: 30px;
+}
+
+.cta-buttons .btn:hover {
+    transform: scale(1.05); /* Slight zoom */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* --- Playlist Cards --- */
+.card {
+    border: 1px solid #ddd; /* Subtle border for separation */
+    border-radius: 8px;
+    margin: 15px 0;
+    padding: 15px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease; /* Smooth scale effect */
+}
+.card:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+    background-color: #c7fce5;
+}
+
+/* --- Album Section --- */
+#album-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;  /* Spacing between album cards */
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.album-card {
+    width: 100%;
+    max-width: 300px;
+    margin: 10px;  /* Outer margin for spacing */
+    border-radius: 8px;  /* Smooth corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;  /* Smooth animation */
+    background-color: white;
+    overflow: hidden;  /* Prevent overflow issues */
+}
+
+.album-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+.album-card img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;  /* Separator line */
+}
+
+.album-card .card-body {
+    padding: 15px;  /* Inner padding for content */
+}
+
+.album-card .card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.album-card .card-text {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.album-card .card-text small {
+    font-size: 0.8rem;
+    color: #888;
+}
+
+/* --- Filter Bar Styling --- */
+.filter-bar {
+    background-color: #f5f5f5;
+    padding: 1rem;  /* Spacing for content */
+    border-radius: 0.5rem;  /* Rounded edges */
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#genre-filter {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    border: 1px solid #ddd;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effects */
+}
+
+#genre-filter:hover {
+    background-color: #e9ecef;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* --- Tooltip Styling --- */
+.tooltip-inner {
+    max-width: 300px;
+    background-color: #f8f9fa;
+    color: #333;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+.tooltip-inner img {
+    margin-top: 10px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+/* --- Section Styling --- */
+.section {
+    padding: 20px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds depth */
+}
+
+/* --- Accordion Styling for Faster Artist Navigation --- */
+.accordion-item {
+    border: none; /* Remove default borders */
+    margin-bottom: 10px; /* Spacing between items */
+    border-radius: 8px; /* Rounded corners */
+    overflow: hidden; /* Preserve rounded corners */
+}
+.accordion-button {
+    background-color: #f8f9fa;
+    color: #333;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    transition: background-color 0.3s, color 0.3s; /* Smooth effects */
+}
+.accordion-button:hover {
+    background-color: #4A90E2; /* Blue hover color */
+    color: white; /* White text on hover */
+}
+.accordion-button:not(.collapsed) {
+    background-color: #4A90E2; /* Active section color */
+    color: white;
+}
+.accordion-body {
+    background-color: #E8F5E9;
+    color: #555;
+    font-size: 14px;
+    line-height: 1.6;  /* Comfortable spacing */
+}
+.accordion-body a {
+    color: #000000;
+    text-decoration: none; /* No underline for links */
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 10x;
+    letter-spacing: 0.5px; /* Slight spacing between letters */
+    transition: color 0.3s ease, transform 0.2s ease; /* Smooth transition effects */
+}
+.accordion-body a:hover {
+    color: #9B59B6;
+    transform: translateY(-2px); /* Slight lift effect */
+    cursor: pointer; /* Pointer cursor for clarity */
+}
+
+/* --- Artist Image --- */
+.artist-section img {
+    min-height: 400px; /* Adjust this value as needed */
+    object-fit: cover; /* Ensures the image crops properly to fit the height */
+    width: 100%; /* Ensures images take up full width of the column */
+}
+
+/* --- Buttons for Links to Recommended Albums --- */
+button {
+    background-color: #03dac6; /* Vibrant teal for buttons */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+button:hover {
+    background-color: #018786;
+}
+
+/* --- Floating Button --- */
+#floatingBackToTop {
+    z-index: 1000; /* Ensure button stays on top */
+    opacity: 0.8; /* Slight transparency */
+    transition: opacity 0.3s; /* Smooth transitions */
+    font-size: 40px;
+    width: 50px;
+    height: 50px;
+    line-height: 28px;
+}
+
+#floatingBackToTop:hover {
+    opacity: 1;
+    cursor: pointer;
+}
+
+/* --- Smooth scrolling for links  --- */
+html {
+    scroll-behavior: smooth;
+}
+
+
+
