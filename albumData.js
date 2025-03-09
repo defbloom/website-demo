@@ -273,6 +273,14 @@ export const albums = [
         }
     },
     {
+        title: "In Rainbows",
+        artist: "Radiohead",
+        year: 2007,
+        genre: "Rock",
+        imageUrl: "https://i.discogs.com/7y0jjFTZp88uBO380fsYcO36I3ex_er3lZn8COq90Vc/rs:fit/g:sm/q:90/h:594/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExNzQy/OTYtMTY5NzMyNzQ3/Ny0yMzQ1LmpwZWc.jpeg",
+        description: "Probably my favorite from the group. It's simple yet intricate, and it sort of makes itself a warm home in your own head."
+    },
+    {
         title: "Is This It",
         artist: "The Strokes",
         year: 2001,
