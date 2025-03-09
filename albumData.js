@@ -37,7 +37,14 @@ export const albums = [
         year: 1997,
         genre: "Electronic",
         imageUrl: "https://i.discogs.com/RRWB8wK6UGBNcOEIY-jAoW2MCAtItp3DNvA635FPFJQ/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc0MjYz/LTE0OTcyMTQ5MTgt/OTM1Mi5qcGVn.jpeg",
-        description: "This beautiful album grows on you. And it's not exactly electronic. That's all I gotta say."
+        description: "This beautiful album grows on you. And it's not exactly electronic. That's all I gotta say.",
+        related: {
+            title: "Post",
+            artist: "Bjork",
+            genre: "Alternative",
+            imageUrl: "https://i.discogs.com/0RVhvNQnBcIyQ_bMEObdXuu3fVV62G56Mdcd9SuePFc/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwMjQ4/MS0xNzE2NzM3NTU3/LTkzODMuanBlZw.jpeg",
+            description: "Bjork indulges in her contrasting ideas, very reflective of the cover art."
+        }
     },
     {
         title: "Bloom",
@@ -133,6 +140,14 @@ export const albums = [
         description: "I love the grand concept and how he explores big themes. There's a lot of variation too."
     },
     {
+        title: "Did You Know That There's A Tunnel Under Ocean Boulevard",
+        artist: "Lana Del Rey",
+        year: 2023,
+        genre: "Indie",
+        imageUrl: "https://i.discogs.com/pDXktrh_WqejIggbZei3kw_KeL-Lq9JCAYH8ZHMh8f8/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI2NTIz/MTg1LTE2Nzk2MjY5/NzYtNzUwNS5qcGVn.jpeg",
+        description: "Lana might be at her most vulnerable here, as you and her both try to find yourselves. It's more indulgent and piano-based than NFR, and the production is amazing."
+    },
+    {
         title: "Discovery",
         artist: "Daft Punk",
         year: 2001,
@@ -163,6 +178,14 @@ export const albums = [
         genre: "Indie",
         imageUrl: "https://i.discogs.com/Huu-yYsln-YH7Br6d2oUXESoPCHuGnVOenn9sIZa8uQ/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyNTkz/MjgtMTQzMTUyNzM5/Mi02ODYyLmpwZWc.jpeg",
         description: "The cover does a great job in representing the tone of the album.  Beach House remains possibly my favorite group."
+    },
+    {
+        title: "Dummy",
+        artist: "Portishead",
+        year: 1994,
+        genre: "Electronic",
+        imageUrl: "https://i.discogs.com/8nh3Kv-xG_6sLNVtLZlNj0t5Zr4zYBTlubLgaP_Iv0w/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE1ODIw/LTEyNTc0MDYyODEu/anBlZw.jpeg",
+        description: "My true self becomes alive here. In control on the verge of losing it. "
     },
     {
         title: "Echoes Of Silence",
@@ -209,7 +232,15 @@ export const albums = [
         year: 2011,
         genre: "R&B",
         imageUrl: "https://i.discogs.com/qIiULIrbCdZpLyX-2ZqXpq9NkOADS1m0q7p1rWZD2ao/rs:fit/g:sm/q:90/h:599/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIyMzUz/ODYyLTE3MjY2OTAx/NDQtMTkyMC5qcGVn.jpeg",
-        description: "This mixtape not only changed RnB but I believe popular music forever. While the lyrics can be distasteful, I really connected to it when I was in a troublesome time, seeking refuge, just like Abel here.",
+        description: "This mixtape not only changed RnB but I believe popular music forever. While the lyrics can be distasteful, I really connected to it when I was in a troublesome time, seeking refuge, just like Abel here."
+    },
+    {
+        title: "Hurry Up Tomorrow",
+        artist: "The Weeknd",
+        year: 2025,
+        genre: "R&B",
+        imageUrl: "https://i.discogs.com/Zdb5YhkRTV5ulkmB-AxUoWMy_MaAnpYfC8rYL_r8ouo/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMzMDI0/NTQzLTE3Mzg0OTE4/NTUtODgzMy5qcGVn.jpeg",
+        description: "Abel releases his grand, final album as the The Weeknd, which is the culmination of everything he made before put together.",
         related: {
             title: "After Hours",
             artist: "The Weeknd",
@@ -297,6 +328,22 @@ export const albums = [
         description: "One of the few near-perfect albums, and it probably got me into more rock songs because of how awesome the psychedelic sounds are here, as well as engaging. Headphones are a must."
     },
     {
+        title: "Loveless",
+        artist: "My Bloody Valentine",
+        year: 1991,
+        genre: "Rock",
+        imageUrl: "https://i.discogs.com/Se2X-LCiU5Uawx0JDWR5kpl0S8bnQ3LQp4KoeTMFvoQ/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyNzYy/Mi0xMjUwMjA4Njc5/LmpwZWc.jpeg",
+        description: "Mbv make guitar noise sound fascinating and entrancing."
+    },
+    {
+        title: "Mezzanine",
+        artist: "Massive Attack",
+        year: 1998,
+        genre: "Electronic",
+        imageUrl: "https://i.discogs.com/gqCkCURexqaNgtuxxr1sZDNAdi6lBphQL2dfuNX_It0/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUwNzcx/ODctMTYzMjgzNjky/OC01NTkzLmpwZWc.jpeg",
+        description: "Calm but always on edge. You hear sounds that you might've never heard work together so well here."
+    },
+    {
         title: "Minecraft - Volume Alpha",
         artist: "C418",
         year: 2011,
@@ -367,6 +414,22 @@ export const albums = [
         description: "The best trap album I've ever heard. Shoutout to the producers, guests, and Travis for having such an imagination on what music can be."
     },
     {
+    {
+        title: "Saturation I",
+        artist: "BROCKHAMPTON",
+        year: 2017,
+        genre: "Rap",
+        imageUrl: "https://i.discogs.com/9CjIVPlXIqBYYCk_muHpnM20A0aQtLDJ3dLruFegLic/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE0NDgz/ODU2LTE1OTA0NTQz/NDUtMTM1OC5qcGVn.jpeg",
+        description: "A group of friends passionate about music make catchy songs that express each of themselves. It's a versatile album with a mix of rap, pop, r&b, and some interesing ideas."
+    },
+    {
+        title: "Saturation II",
+        artist: "BROCKHAMPTON",
+        year: 2017,
+        genre: "Rap",
+        imageUrl: "https://i.discogs.com/nK6jTV5wlqelqpssz3vchz2BXb6kMJBPpUS_pA9u1TU/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwNzU0/NzI0LTE1MDM3MjYx/ODktNDI5OC5qcGVn.jpeg",
+        description: "The second installment of the trilogy, the boy band playa even more to their strengths and makes another braggadocious and heartfelt mixtape."
+    },
         title: "Saturday Night Wrist",
         artist: "Deftones",
         year: 2006,
@@ -506,6 +569,13 @@ export const albums = [
         description: "If I were to ever call an album perfect it's this one. I don't think there's anything like this album, as it's ambient-uk garage driven by pitch-shifted vocal samples, if that can be imagined. It's grey, yet beautiful, and the production is insane;it never gets boring and I always hear new things. Give it a try when you’re up late working, or for when you have to go through dull moments."
     },
     {
+        title: "Vespertine",
+        artist: "Bjork",
+        year: 2001,
+        genre: "Electronic",
+        imageUrl: "https://i.discogs.com/wuyeP141H4dnIcg67aXC0tqT5TcML2MbAgx71n3X1mo/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExNDA4/LTE1MjMxNDAyMjct/NTExNC5qcGVn.jpeg",
+        description: "Heavenly, intimate, I can't praise enough of this album. Listen to it with good heaphones."
+    },
         title: "White Pony",
         artist: "Deftones",
         year: 2000,
