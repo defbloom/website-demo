@@ -106,7 +106,14 @@ export const albums = [
         year: 2010,
         genre: "Electronic",
         imageUrl: "https://i.discogs.com/YLThx03JO18B6pjnwEaq4opxx7GURBOz-sitaHr0fXY/rs:fit/g:sm/q:90/h:504/w:504/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQ2ODY1/OTQtMTQzMDc0Nzk4/Mi01MTIwLmpwZWc.jpeg",
-        description: "Electronica from out of this world; where a new creation is formed after suffering and dying from a past life."
+        description: "Electronica from out of this world; where a new creation is formed after suffering and dying from a past life.",
+        related: {
+            title: "Wlfgrl",
+            artist: "Machine Girl",
+            genre: "Electronic",
+            imageUrl: "https://i.discogs.com/-i_wUzsLdHYCfrue1cXX-TiaLD6vk_zCbZuBYuN-UXo/rs:fit/g:sm/q:90/h:350/w:350/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU0NjA1/NTgtMTM5MzkzOTA5/OS0yNzcyLmpwZWc.jpeg",
+            description: "Intense energetic fusion of genres like punk and breakcore, and indulges in film samples."
+        }
     },
     {
         title: "CTRL (Deluxe)",
@@ -429,6 +436,7 @@ export const albums = [
         imageUrl: "https://i.discogs.com/nK6jTV5wlqelqpssz3vchz2BXb6kMJBPpUS_pA9u1TU/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwNzU0/NzI0LTE1MDM3MjYx/ODktNDI5OC5qcGVn.jpeg",
         description: "The second installment of the trilogy, the boy band playa even more to their strengths and makes another braggadocious and heartfelt mixtape."
     },
+    {
         title: "Saturday Night Wrist",
         artist: "Deftones",
         year: 2006,
@@ -457,7 +465,7 @@ export const albums = [
         year: 2022,
         genre: "R&B",
         imageUrl: "https://i.discogs.com/7hutaiit_yV70u-gZbn5qQw6lx7PzWVixKYuk8FI15U/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI1NDA0/MjgzLTE2NzA1MDY1/MjctNTcwMS5wbmc.jpeg",
-        description: "SZA somehow improves from her last work and gives an amazing heartbroken album. SZA does amazing in varying her vocals to express different moods, as there's  a bit of everything here."
+        description: "SZA somehow improves from her last work and gives an amazing fed-up album. SZA does amazing in varying her vocals to express different moods, as there's  a bit of everything here."
     },
     {
         title: "Songs For The Deaf",
@@ -575,6 +583,7 @@ export const albums = [
         imageUrl: "https://i.discogs.com/wuyeP141H4dnIcg67aXC0tqT5TcML2MbAgx71n3X1mo/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTExNDA4/LTE1MjMxNDAyMjct/NTExNC5qcGVn.jpeg",
         description: "Heavenly, intimate, I can't praise enough of this album. Listen to it with good heaphones."
     },
+    {
         title: "White Pony",
         artist: "Deftones",
         year: 2000,
