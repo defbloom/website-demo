@@ -434,7 +434,7 @@ const artistData = [
     {
         id: "artist37",
         name: "Radiohead",
-        image: "
+        image: "https://wallpapercave.com/wp/wp13247813.jpg",
         genres: ["Alternative Rock", "Experimental"],
         description: "Known for pushing the boundaries of modern music and emotions. Need less radio and more head.",
         spotifyTrack: "https://wallpapercave.com/wp/wp13247813.jpg",
