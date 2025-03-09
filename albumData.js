@@ -414,7 +414,6 @@ export const albums = [
         description: "The best trap album I've ever heard. Shoutout to the producers, guests, and Travis for having such an imagination on what music can be."
     },
     {
-    {
         title: "Saturation I",
         artist: "BROCKHAMPTON",
         year: 2017,
