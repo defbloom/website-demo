@@ -437,7 +437,7 @@ const artistData = [
         image: "https://wallpapercave.com/wp/wp13247813.jpg",
         genres: ["Alternative Rock", "Experimental"],
         description: "Known for pushing the boundaries of modern music and emotions. Need less radio and more head.",
-        spotifyTrack: "https://wallpapercave.com/wp/wp13247813.jpg",
+        spotifyTrack: "https://open.spotify.com/embed/track/2fuYa3Lx06QQJAm0MjztKr?utm_source=generator",
         recommendedAlbum: {
             url: "https://open.spotify.com/album/6dVIqQ8qmQ5GBnJ9shOYGE?si=NNRePB8VS6-mM2sCRhFHuw",
             text: "Recommended Album"
