@@ -50,7 +50,7 @@ const artistData = [
     {
         id: "artist5",
         name: "Björk",
-        image: "https://www.mondosonoro.com/wp-content/uploads/2018/05/bjork-WEB-jean-baptiste-mondino-venus-as-a-boy-01.jpg",
+        image: "https://m.media-amazon.com/images/M/MV5BM2JhZWVmMzEtYTUzNC00NDk0LTgzN2YtZWU1YzVhNTY2OWJkXkEyXkFqcGc@._V1_.jpg",
         genres: ["Electronic", "Experimental"],
         description: "Björk's music is a fusion of avant-garde, electronic sounds, and ethereal vocals. I have a crush on her.",
         spotifyTrack: "https://open.spotify.com/embed/track/48oX55j4gqDw0G80KxzpaQ?utm_source=generator",
@@ -62,7 +62,7 @@ const artistData = [
     {
         id: "artist6",
         name: "BROCKHAMPTON",
-        image: "https://mty360.net/wp-content/uploads/2018/03/Brockhampton-miembros.jpg",
+        image: "https://media.gq.com/photos/5d8a312bb14b3a000878593d/1:1/w_4480,h_4480,c_limit/GQ-Brockhampton-092419.jpg",
         genres: ["Hip-Hop", "Alternative"],
         description: "BROCKHAMPTON is a dynamic collective blending rap, pop, and alternative music. Thank you Kanye.",
         spotifyTrack: "https://open.spotify.com/embed/track/4O9tOyMOq8Oioun2MsULH5?utm_source=generator",
@@ -98,7 +98,7 @@ const artistData = [
     {
         id: "artist9",
         name: "Clairo",
-        image: "https://static.wikia.nocookie.net/clairopedia/images/7/7d/Diary001.jpg/revision/latest/smart/width/386/height/259?cb=20201126211416",
+        image: "https://is1-ssl.mzstatic.com/image/thumb/Music125/v4/ad/46/5b/ad465bd9-dee8-0deb-d35c-ab6feded1b16/00829299181432.rgb.jpg/1200x1200bb.jpg",
         genres: ["Indie Pop", "Bedroom Pop"],
         description: "Clairo is a introspective singer-songwriter with mellow, relatable tracks and lo-fi aesthetics. She must be protected.",
         spotifyTrack: "https://open.spotify.com/embed/track/6UFivO2zqqPFPoQYsEMuCc?utm_source=generator",
@@ -110,7 +110,7 @@ const artistData = [
     {
         id: "artist10",
         name: "Cocteau Twins",
-        image: "https://i.guim.co.uk/img/media/1405c81284e4594efe465f39e9222ba504d1f8f7/0_200_3000_1800/master/3000.jpg?width=465&dpr=1&s=none&crop=none",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Cocteau_Twins%2C_The_Moon_and_the_Melodies_1986_%28cropped%29_%28cropped%29.jpg/800px-Cocteau_Twins%2C_The_Moon_and_the_Melodies_1986_%28cropped%29_%28cropped%29.jpg",
         genres: ["Dream Pop", "Ethereal Wave"],
         description: "Cocteau 'twins' are pioneers of dreamy, atmospheric music featuring Elizabeth Fraser's iconic vocals. They are acutally not twins, not even triplets.",
         spotifyTrack: "https://open.spotify.com/embed/track/37pKTyMwalomKCZjxTc2QZ?utm_source=generator",
@@ -122,7 +122,7 @@ const artistData = [
     {
         id: "artist11",
         name: "Crystal Castles",
-        image: "https://nuestraobsesion.wordpress.com/wp-content/uploads/2015/05/crystalcastles.jpg?w=640",
+        image: "https://www.neo2.com/wp-content/uploads/photo_crystal-c_300cmyk.jpg",
         genres: ["Electronic", "Synth-Punk"],
         description: "Crystal Castles are a duo combining abrasive electronics with haunting, glitchy vocals. Go support Alice Glass (left), all my homies hate Ethan Kath (right).",
         spotifyTrack: "https://open.spotify.com/embed/track/3zKQDZQTHkUV6bYHNhzbGv?utm_source=generator",
@@ -158,7 +158,7 @@ const artistData = [
     {
         id: "artist14",
         name: "Deftones",
-        image: "https://www.rockculture.es/wp-content/uploads/2024/03/deftones-1.jpg",
+        image: "https://img.allformusic.fr/artiste/d/deftones/1.webp",
         genres: ["Alternative Metal", "Shoegaze"],
         description: "Genre-defying band blending heavy riffs with atmospheric and emotional soundscapes. My alternative to therapy.",
         spotifyTrack: "https://open.spotify.com/embed/track/1158ckiB5S4cpsdYHDB9IF?utm_source=generator",
@@ -182,7 +182,7 @@ const artistData = [
     {
         id: "artist16",
         name: "Giveon",
-        image: "https://plus.cusica.com/wp-content/uploads/2021/03/GIVEON-alltome-1280x720.jpg",
+        image: "https://static.wikia.nocookie.net/giveon/images/8/8c/Giveon.jpg/revision/latest?cb=20241007144833",
         genres: ["R&B", "Soul"],
         description: "Giveon is known for his deep baritone and emotionally rich ballads. He's so cool and mysterious 🤭.",
         spotifyTrack: "https://open.spotify.com/embed/track/5JycxhApZmzbA4xSwvqh6k?utm_source=generator",
@@ -194,7 +194,7 @@ const artistData = [
     {
         id: "artist17",
         name: "Inner Wave",
-        image: "https://www.vice.com/wp-content/uploads/sites/2/2018/04/1522871234210-InnerWave-3.jpeg",
+        image: "https://photos.bandsintown.com/thumb/13620269.jpeg",
         genres: ["Indie Rock", "Psychedelic"],
         description: "Inner wave combine groovy rhythms with dreamy, experimental sounds. The bass player can get it.",
         spotifyTrack: "https://open.spotify.com/embed/track/7ByEDFkz7d7qeLMSZF69cz?utm_source=generator",
@@ -278,7 +278,7 @@ const artistData = [
     {
         id: "artist24",
         name: "Massive Attack",
-        image: "https://www.latempestad.mx/wp-content/uploads/2019/11/massive-attack.jpg",
+        image: "https://thefader-res.cloudinary.com/private_images/c_limit,w_1024/c_crop,h_531,w_1020,x_0,y_172/w_300,c_limit,f_auto,q_auto:eco/Massive_Attack_credit_Warren_Du_Preez_bxgpfg/Massive_Attack_credit_Warren_Du_Preez_bxgpfg.jpg",
         genres: ["Trip-hop", "Electronic"],
         description: "Very talented dj's that decided to get together and make some good music.",
         spotifyTrack: "https://open.spotify.com/embed/track/6ggJ6MceyHGWtUg1KLp3M1?utm_source=generator",
@@ -314,7 +314,7 @@ const artistData = [
     {
         id: "artist27",
         name: "My Chemical Romance",
-        image: "https://i.pinimg.com/564x/6f/bb/7c/6fbb7cbb863f53f6a7c42b6266a2d75e.jpg",
+        image: "https://plus.cusica.com/wp-content/uploads/2020/06/My-Chemical-Romance.jpg",
         genres: ["Emo", "Alternative Rock"],
         description: "MCR are an influential band blending theatrical emo anthems with a punk edge. They somehow don't sound corny.",
         spotifyTrack: "https://open.spotify.com/embed/track/2kMjk14RmYyYhhSbipoa9U?utm_source=generator",
@@ -326,7 +326,7 @@ const artistData = [
     {
         id: "artist28",
         name: "My Vitriol",
-        image: "https://lastfm.freetls.fastly.net/i/u/ar0/12ed2eb2042699348810f08ef74326f5.jpg",
+        image: "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjf6tBp8wEJSXxrPUIU9gtooigGmdqv-JuTfJFEYpacBzurbCmhvhIbEbkht9SgSui6qwzx8cghxVyxsf9JQanHZU-R0su0_iZufww_ez5Ccc5qcpk-NKAZ8ro0rmIDRgKqvs7pbjg8v9ao/w1200-h630-p-k-no-nu/5E66603AC8934D9AA7EC294E9DAACDDC.jpg",
         genres: ["Alternative Rock", "Shoegaze"],
         description: "My Virtriol fuse distorted guitars with melodic hooks and anthemic energy. They are the most underrated here.",
         spotifyTrack: "https://open.spotify.com/embed/track/3CxozMCXI2BBT58uQYXK7q?utm_source=generator",
@@ -350,7 +350,7 @@ const artistData = [
     {
         id: "artist30",
         name: "Pierce the Veil",
-        image: "https://lamusikalite.com/wp-content/uploads/2016/03/1375263547_pierce-the-veil_normal.jpg",
+        image: "https://i.scdn.co/image/39ecfaa2cb6574e81d95dc09b1ae9d17b078a5a5",
         genres: ["Post-Hardcore", "Emo"],
         description: "Pierce the Veil are a high-energy band known for blending raw emotion with explosive sound. They make emo sound not uncool.",
         spotifyTrack: "https://open.spotify.com/embed/track/3EKh7JNsBrGoh2xqPotBKT?utm_source=generator",
@@ -374,7 +374,7 @@ const artistData = [
     {
         id: "artist32",
         name: "PinkPantheress",
-        image: "https://indiehoy.com/wp-content/uploads/2021/10/PinkPantheress.jpg",
+        image: "https://www.billboard.com/wp-content/uploads/2024/02/Pink-Pantheress-press-2024-billboard-1548.jpg",
         genres: ["Alt-Pop", "Garage"],
         description: "PinkPantheress sensation blending nostalgic 2000s UK garage beats with modern pop vibes. Wonderful artist name.",
         spotifyTrack: "https://open.spotify.com/embed/track/6OTKVgVpVaVjhRLYizPJKA?utm_source=generator",
@@ -386,7 +386,7 @@ const artistData = [
     {
         id: "artist33",
         name: "Portishead",
-        image: "https://www.rockaxis.com/img/newsList/4305108.jpg",
+        image: "https://itsoundsalternative.com/wp-content/uploads/2022/05/portishead.jpeg",
         genres: ["Trip-Hop", "Alternative"],
         description: "Group that fused dance music conventions such as drum loops and samples with atmospheric yearning vocals.",
         spotifyTrack: "https://open.spotify.com/embed/track/6vTtCOimcPs5H1Jr9d0Aep?utm_source=generator",
@@ -422,7 +422,7 @@ const artistData = [
     {
         id: "artist36",
         name: "Queens of the Stone Age",
-        image: "https://www.futuro.cl/wp-content/uploads/2022/08/queens-of-the-stone-age-2002-promo-web.jpg",
+        image: "https://www.futuro.cl/wp-content/uploads/2022/05/queens-of-the-stone-age-2007-web-768x432.jpg",
         genres: ["Alternative Rock", "Stoner Rock"],
         description: "QOSTA is a hard-hitting rock band crafting riff-heavy, hypnotic, and energetic tracks. It's okay to listen to divorced dad music.",
         spotifyTrack: "https://open.spotify.com/embed/track/1D3YGmST01Ba0WRiT7THPG?utm_source=generator",
@@ -434,7 +434,7 @@ const artistData = [
     {
         id: "artist37",
         name: "Radiohead",
-        image: "https://akamai.sscdn.co/uploadfile/letras/fotos/4/2/f/0/42f02b4f105f068ab418e8019961a232.jpg",
+        image: "https://static.wikia.nocookie.net/idioteque/images/f/ff/Radiohead_in_1997.png/revision/latest?cb=20230128171007",
         genres: ["Alternative Rock", "Experimental"],
         description: "Known for pushing the boundaries of modern music and emotions. Need less radio and more head.",
         spotifyTrack: "https://open.spotify.com/embed/track/2fuYa3Lx06QQJAm0MjztKr?utm_source=generator",
@@ -446,7 +446,7 @@ const artistData = [
     {
         id: "artist38",
         name: "Sade",
-        image: "https://i.pinimg.com/736x/e5/bd/8b/e5bd8bd172d52215723395157ef1bc51.jpg",
+        image: "https://i.discogs.com/qc8_ikuurPKrW6wR4ZGtFega44poRD6188wGzkE839s/rs:fit/g:sm/q:90/h:600/w:499/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTE5NzMx/LTE3MDg4ODcwOTgt/NzcyNi5qcGVn.jpeg",
         genres: ["Soul", "Smooth Jazz"],
         description: "Timeless artist delivering sultry, sophisticated ballads with unparalleled elegance. I'm single btw.",
         spotifyTrack: "https://open.spotify.com/embed/track/4S0NYVAQdIb81uLoZoQmgq?utm_source=generator",
@@ -506,7 +506,7 @@ const artistData = [
         {
         id: "artist43",
         name: "The Beatles",
-        image: "https://www.udiscovermusic.com/wp-content/uploads/2020/02/The-Beatles-GettyImages-1183628511-1000x600.jpg",
+        image: "https://static01.nyt.com/images/2022/02/10/opinion/10brooks1/10brooks1-articleLarge.jpg?quality=75&auto=webp&disable=upscale",
         genres: ["Rock", "Pop"],
         description: "The Beatles are the most iconic band in history, revolutionizing music with their timeless classics. Probably the only 60's-70's band I actually enjoy.",
         spotifyTrack: "https://open.spotify.com/embed/track/0pNeVovbiZHkulpGeOx1Gj?utm_source=generator",
@@ -530,7 +530,7 @@ const artistData = [
         {
         id: "artist45",
         name: "The Smashing Pumpkins",
-        image: "https://m.media-amazon.com/images/M/MV5BNDU3MzBiYTctMTM3ZC00NTBlLTgyMzMtMDA4ODdjN2MyZmE4XkEyXkFqcGc@._V1_.jpg",
+        image: "https://www.hairandflannel.com/bands/the-smashing-pumpkins.jpg",
         genres: ["Alternative Rock", "Grunge"],
         description: "Alt-rock legends fusing poetic lyrics with heavy guitars and lush arrangements. I must thank my cool uncle for putting me on.",
         spotifyTrack: "https://open.spotify.com/embed/track/0u5aO1GYsIhAWCPuXdwnak?utm_source=generator",
@@ -542,7 +542,7 @@ const artistData = [
         {
         id: "artist46",
         name: "The Strokes",
-        image: "https://static01.nyt.com/images/2020/04/16/arts/13strokes-review1/13strokes-review1-videoSixteenByNineJumbo1600.jpg",
+        image: "https://www.rockarchive.com/media/4927/the-strokes-stood-in-bedroom-strok001jake.jpg?crop=0.19346853261079861,0.080196642166592516,0.074927772642483986,0.017591133459241726&cropmode=percentage&width=800&height=800&rnd=133610346050000000&overlay=watermark.png&overlay.size=230,20&overlay.position=0,780",
         genres: ["Indie Rock", "Garage Rock"],
         description: "The Strokes revived rock in the 2000s with their gritty, cool, and effortless anthems. They are easy to get into.",
         spotifyTrack: "https://open.spotify.com/embed/track/6YQeOwMMAkB9MV9yMWmrjh?utm_source=generator",
@@ -578,7 +578,7 @@ const artistData = [
     {
         id: "artist49",
         name: "Twenty One Pilots",
-        image: "https://img.welt.de/img/kultur/pop/mobile162187206/0172505547-ci23x11-w1200/twenty-one-pilots-pressebild-2017-warn-2.jpg",
+        image: "https://media.meer.com/attachments/d9f64a0028f449e0d4e7c9d4594dd99090c226e1/store/fill/860/645/d190772f7460391a23172c6ebbf22b254171ff319c25c8dcf67c346e180d/Twenty-One-Pilots.jpg",
         genres: ["Alternative", "Electropop"],
         description: "Twenty One Pilots are a Genre-bending DUO blending emotional lyrics with dynamic, experimental sounds. I aspire to be best friends with someone like them.",
         spotifyTrack: "https://open.spotify.com/embed/track/5SehvGGC53A7SZKCLXQcyt?utm_source=generator",
