@@ -172,7 +172,7 @@ const artistData = [
         name: "Frank Ocean",
         image: "https://images.squarespace-cdn.com/content/v1/5a0dd6831f318dcf5130a0d5/1585930507185-5CD92KM7HAOVBGWRFLBR/image-asset.jpeg",
         genres: ["R&B", "Neo-Soul"],
-        description: "Critically acclaimed artist blending introspective lyrics with innovative production. He helps you dwell on significant others.",
+        description: "Critically acclaimed artist blending introspective lyrics with innovative production. Makes you dwell on significant others.",
         spotifyTrack: "https://open.spotify.com/embed/track/2ZWlPOoWh0626oTaHrnl2a?utm_source=generator",
         recommendedAlbum: {
             url: "https://open.spotify.com/album/3mH6qwIy9crq0I9YQbOuDf?si=COKhsrogQ0mFkQsJ8gSSQw",
@@ -277,8 +277,20 @@ const artistData = [
     },
     {
         id: "artist24",
+        name: "Massive Attack",
+        image: "https://www.latempestad.mx/wp-content/uploads/2019/11/massive-attack.jpg",
+        genres: ["Trip-hop", "Electronic"],
+        description: "Very talented dj's that decided to get together and make some good music.",
+        spotifyTrack: "https://open.spotify.com/embed/track/6ggJ6MceyHGWtUg1KLp3M1?utm_source=generator",
+        recommendedAlbum: {
+            url: "https://open.spotify.com/album/49MNmJhZQewjt06rpwp6QR?si=YeMLTaAvTlCHPngPs-PbOw",
+            text: "Recommended Album"
+        }
+    },
+    {
+        id: "artist25",
         name: "Metro Boomin",
-        image: "https://www.factdubai.com/_next/image?url=https%3A%2F%2Fapi.factmagazines.com%2Fwp-content%2Fuploads%2F2024%2F02%2FMetro-Boomin-.jpg&w=3840&q=75",
+        image: "https://cdn.themedizine.com/2023/01/metro-boomin-spotify-1200x675.jpg",
         genres: ["Trap", "Hip-Hop"],
         description: "Metro is a superproducer behind some of the biggest hits in modern rap and trap music. Don't let his cuteness fool you.",
         spotifyTrack: "https://open.spotify.com/embed/track/6pcywuOeGGWeOQzdUyti6k?utm_source=generator",
@@ -288,7 +300,19 @@ const artistData = [
         }
     },
     {
-        id: "artist25",
+        id: "artist26",
+        name: "My Bloody Valentine",
+        image: "https://cloudfront-us-east-1.images.arcpublishing.com/copesa/RJEHZ73YBNDHZJ54O5IDP4ZIKM.jpg",
+        genres: ["Shoegaze", "Dream Pop"],
+        description: "The pioneers of shoegaze, where you don't really understand what's going on but you're still drawn to it.",
+        spotifyTrack: "https://open.spotify.com/embed/track/2KylN9C0wNbzLgZNTG9oiU?utm_source=generator",
+        recommendedAlbum: {
+            url: "https://open.spotify.com/album/3USQKOw0se5pBNEndu82Rb?si=bQ3mzoC7TGKxn6WNsAFCLA",
+            text: "Recommended Album"
+        }
+    },
+    {
+        id: "artist27",
         name: "My Chemical Romance",
         image: "https://i.pinimg.com/564x/6f/bb/7c/6fbb7cbb863f53f6a7c42b6266a2d75e.jpg",
         genres: ["Emo", "Alternative Rock"],
@@ -300,7 +324,7 @@ const artistData = [
         }
     },
     {
-        id: "artist26",
+        id: "artist28",
         name: "My Vitriol",
         image: "https://lastfm.freetls.fastly.net/i/u/ar0/12ed2eb2042699348810f08ef74326f5.jpg",
         genres: ["Alternative Rock", "Shoegaze"],
@@ -312,7 +336,7 @@ const artistData = [
         }
     },
     {
-        id: "artist27",
+        id: "artist29",
         name: "Phoebe Bridgers",
         image: "https://ourculturemag.com/wp-content/uploads/2020/09/IMG_8016-1-scaled.jpg",
         genres: ["Indie Folk", "Singer-Songwriter"],
@@ -324,7 +348,7 @@ const artistData = [
         }
     },
     {
-        id: "artist28",
+        id: "artist30",
         name: "Pierce the Veil",
         image: "https://lamusikalite.com/wp-content/uploads/2016/03/1375263547_pierce-the-veil_normal.jpg",
         genres: ["Post-Hardcore", "Emo"],
@@ -336,7 +360,7 @@ const artistData = [
         }
     },
     {
-        id: "artist29",
+        id: "artist31",
         name: "Playboi Carti",
         image: "https://wallpapers.com/images/featured/playboi-carti-o1duxv134a98qd2w.jpg",
         genres: ["Trap", "Rap"],
@@ -348,7 +372,7 @@ const artistData = [
         }
     },
     {
-        id: "artist30",
+        id: "artist32",
         name: "PinkPantheress",
         image: "https://indiehoy.com/wp-content/uploads/2021/10/PinkPantheress.jpg",
         genres: ["Alt-Pop", "Garage"],
@@ -360,9 +384,21 @@ const artistData = [
         }
     },
     {
-        id: "artist31",
+        id: "artist33",
+        name: "Portishead",
+        image: "https://www.rockaxis.com/img/newsList/4305108.jpg",
+        genres: ["Trip-Hop", "Alternative"],
+        description: "Group that fused dance music conventions such as drum loops and samples with atmospheric yearning vocals.",
+        spotifyTrack: "https://open.spotify.com/embed/track/6vTtCOimcPs5H1Jr9d0Aep?utm_source=generator",
+        recommendedAlbum: {
+            url: "https://open.spotify.com/album/3539EbNgIdEDGBKkUf4wno?si=bavIKOJzSlK2q5JO_fdigQ",
+            text: "Recommended Album"
+        }
+    },
+    {
+        id: "artist34",
         name: "Pusha T",
-        image: "https://www.umgcatalog.com/files/2019/01/pusha-t_edited.jpg",
+        image: "https://s1.ticketm.net/dam/a/2a6/3dd213b9-ca89-4829-b1b6-275d9d49e2a6_1723961_TABLET_LANDSCAPE_3_2.jpg",
         genres: ["Rap", "Hip-Hop"],
         description: "Pusha T is a veteran lyricist delivering hard-hitting bars with precision and swagger. Thank him for destroying Drake before K-Dot.",
         spotifyTrack: "https://open.spotify.com/embed/track/6bGwKHXHNLmTy6yt147FPh?utm_source=generator",
@@ -372,7 +408,7 @@ const artistData = [
         }
     },
     {
-        id: "artist32",
+        id: "artist35",
         name: "Queen",
         image: "https://i.scdn.co/image/af2b8e57f6d7b5d43a616bd1e27ba552cd8bfd42",
         genres: ["Rock", "Glam Rock"],
@@ -384,7 +420,7 @@ const artistData = [
         }
     },
     {
-        id: "artist33",
+        id: "artist36",
         name: "Queens of the Stone Age",
         image: "https://www.futuro.cl/wp-content/uploads/2022/08/queens-of-the-stone-age-2002-promo-web.jpg",
         genres: ["Alternative Rock", "Stoner Rock"],
@@ -396,7 +432,7 @@ const artistData = [
         }
     },
     {
-        id: "artist34",
+        id: "artist37",
         name: "Radiohead",
         image: "https://akamai.sscdn.co/uploadfile/letras/fotos/4/2/f/0/42f02b4f105f068ab418e8019961a232.jpg",
         genres: ["Alternative Rock", "Experimental"],
@@ -408,7 +444,7 @@ const artistData = [
         }
     },
     {
-        id: "artist35",
+        id: "artist38",
         name: "Sade",
         image: "https://i.pinimg.com/736x/e5/bd/8b/e5bd8bd172d52215723395157ef1bc51.jpg",
         genres: ["Soul", "Smooth Jazz"],
@@ -420,7 +456,7 @@ const artistData = [
         }
     },
     {
-        id: "artist36",
+        id: "artist39",
         name: "Slowdive",
         image: "https://indiehoy.com/wp-content/uploads/2023/05/slowdive-.jpg",
         genres: ["Shoegaze", "Dream Pop"],
@@ -432,7 +468,7 @@ const artistData = [
         }
     },
     {
-        id: "artist37",
+        id: "artist40",
         name: "Sufjan Stevens",
         image: "https://media.pitchfork.com/photos/59ea4a90462c8a79653fb70f/4:3/w_524,h_393,c_limit/Sufjan487307780.jpg",
         genres: ["Indie Folk", "Baroque Pop"],
@@ -444,7 +480,7 @@ const artistData = [
         }
     },
         {
-        id: "artist38",
+        id: "artist41",
         name: "SZA",
         image: "https://images.paramount.tech/uri/mgid:arc:imageassetref:shared.bet.us:33bc3e8c-f777-42a2-994d-b9ed9537870a?quality=0.7&gen=ntrn&format=jpg&width=1200&height=630&crop=true",
         genres: ["R&B", "Neo-Soul"],
@@ -456,7 +492,7 @@ const artistData = [
         }
     },
         {
-        id: "artist39",
+        id: "artist42",
         name: "Tame Impala",
         image: "https://jenesaispop.com/wp-content/uploads/2019/03/tame-impala-kevin-parker.jpg",
         genres: ["Psychedelic Rock", "Indie"],
@@ -468,7 +504,7 @@ const artistData = [
         }
     },
         {
-        id: "artist40",
+        id: "artist43",
         name: "The Beatles",
         image: "https://www.udiscovermusic.com/wp-content/uploads/2020/02/The-Beatles-GettyImages-1183628511-1000x600.jpg",
         genres: ["Rock", "Pop"],
@@ -480,7 +516,7 @@ const artistData = [
         }
     },
         {
-        id: "artist41",
+        id: "artist44",
         name: "The Marias",
         image: "https://images.universe.com/e3aea9b7-977d-432d-a0d8-ed3d50e2ff1c/-/progressive/yes/-/inline/yes/",
         genres: ["Indie Pop", "Psychedelic"],
@@ -492,7 +528,7 @@ const artistData = [
         }
     },
         {
-        id: "artist42",
+        id: "artist45",
         name: "The Smashing Pumpkins",
         image: "https://m.media-amazon.com/images/M/MV5BNDU3MzBiYTctMTM3ZC00NTBlLTgyMzMtMDA4ODdjN2MyZmE4XkEyXkFqcGc@._V1_.jpg",
         genres: ["Alternative Rock", "Grunge"],
@@ -504,7 +540,7 @@ const artistData = [
         }
     },
         {
-        id: "artist43",
+        id: "artist46",
         name: "The Strokes",
         image: "https://static01.nyt.com/images/2020/04/16/arts/13strokes-review1/13strokes-review1-videoSixteenByNineJumbo1600.jpg",
         genres: ["Indie Rock", "Garage Rock"],
@@ -516,7 +552,7 @@ const artistData = [
         }
     },
     {
-        id: "artist44",
+        id: "artist47",
         name: "The Weeknd",
         image: "https://e0.pxfuel.com/wallpapers/846/208/desktop-wallpaper-review-the-weeknd-trilogy.jpg",
         genres: ["R&B", "Pop"],
@@ -528,7 +564,7 @@ const artistData = [
         }
     },
     {
-        id: "artist45",
+        id: "artist48",
         name: "Travis Scott",
         image: "https://highxtar.com/wp-content/uploads/2023/11/higgxtar-harvard-travis-1440x1080.jpg",
         genres: ["Trap", "Hip-Hop"],
@@ -540,7 +576,7 @@ const artistData = [
         }
     },
     {
-        id: "artist46",
+        id: "artist49",
         name: "Twenty One Pilots",
         image: "https://img.welt.de/img/kultur/pop/mobile162187206/0172505547-ci23x11-w1200/twenty-one-pilots-pressebild-2017-warn-2.jpg",
         genres: ["Alternative", "Electropop"],
@@ -552,7 +588,7 @@ const artistData = [
         }
     },
     {
-        id: "artist47",
+        id: "artist50",
         name: "Tyler, The Creator",
         image: "https://www.usatoday.com/gcdn/-mm-/10cb3fe3cb17bc5764dc152d9d4fd418e34c1608/c=0-105-480-585/local/-/media/USATODAY/GenericImages/2014/03/16//1394994103000-AP-Music-Tyler-The-Creator-Arrest.jpg",
         genres: ["Rap", "Neo-Soul"],
@@ -564,11 +600,11 @@ const artistData = [
         }
     },
     {
-        id: "artist48",
+        id: "artist51",
         name: "Jahseh (XXXTENTACION)",
         image: "https://www.billboard.com/wp-content/uploads/media/xxxtentacion-bw-press-photo-2018-billboard-1548.jpg",
         genres: ["Rap", "Emo Rap"],
-        description: "X was a controversial figure that blended raw emotion and genre-defying music with cult-like impact.",
+        description: "X was a controversial figure that blended raw emotion and genre-defying music with cult-like impact. Really unfortunate to have him go so soon.",
         spotifyTrack: "https://open.spotify.com/embed/track/7AQim7LbvFVZJE3O8TYgf2?utm_source=generator",
         recommendedAlbum: {
             url: "https://open.spotify.com/album/2Ti79nwTsont5ZHfdxIzAm?si=5xxQqs2ETf2151fPKFTVYw",
@@ -576,4 +612,3 @@ const artistData = [
         }
     },
 ];
-
