@@ -182,7 +182,7 @@ const artistData = [
     {
         id: "artist16",
         name: "Giveon",
-        image: "2wCEAAkGBxISEhUSEhIVFRUVFRcXFRUVFRUVFRUVFRUWFhcVFRYYHSggGBolHRUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKDg0OGA8QGC0dHR0tLystKy0rLS0tLS0tLS0tLy0uLS0tLS0tLSsrLTctLSstLS0vLSstLS0tLS0rKysrLf",
+        image: "https://i.imgur.com/W9DxWHj.jpeg",
         genres: ["R&B", "Soul"],
         description: "Giveon is known for his deep baritone and emotionally rich ballads. He's so cool and mysterious 🤭.",
         spotifyTrack: "https://open.spotify.com/embed/track/5JycxhApZmzbA4xSwvqh6k?utm_source=generator",
