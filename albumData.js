@@ -6,7 +6,16 @@ export const albums = [
         year: 2013,
         genre: "Indie",
         imageUrl: "https://i.discogs.com/Chm5h0HMeeFU2ceuWN5uTTuVA4oQ9EAoGIQb3a8Fg0k/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4NzMw/OTQxLTE2OTg1Mjgw/NTItODg1Ny5qcGVn.jpeg",
-        description: "Reminds me of when I was in Florida. Indie psych rock with  fun melodies."
+        description: "Reminds me of when I was in Florida. Indie psych rock with  fun melodies.",
+        previewUrl: "https://audio.com/samuel-b-6/audio/feel-better-inner-wave-iii-1"
+    },
+    {
+        title: "Abbey Road",
+        artist: "The Beatles",
+        year: 1969,
+        genre: "Rock",
+        imageUrl: "https://i.discogs.com/l6uptefs98ekPepJjndPXiLweFLrDzC8P6GlMCJ_AyU/rs:fit/g:sm/q:90/h:587/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTczMzA0/OS0xNTI2ODI4OTI0/LTcyOTQuanBlZw.jpeg",
+        description: "An iconic album that shows the Beatles at their creative peak, blending various musical styles and innovative recording techniques."
     },
     {
         title: "Around the Fur",
@@ -29,21 +38,6 @@ export const albums = [
             genre: "Rap",
             imageUrl: "https://i.discogs.com/hywp7Zxb-tOP9ievyyBpeV_5NHIGRhwgnKRzU7HCyyg/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI3ODA4/MzE3LTE2OTA1NjM4/NTUtMTI2OC5qcGVn.jpeg",
             description: "Travis takes a little more experimental and darker turn here, and it could’ve been possibly his best album if it weren’t for the filler at the last part of the album."
-        }
-    },
-    {
-        title: "Homogenic",
-        artist: "Bjork",
-        year: 1997,
-        genre: "Electronic",
-        imageUrl: "https://i.discogs.com/RRWB8wK6UGBNcOEIY-jAoW2MCAtItp3DNvA635FPFJQ/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc0MjYz/LTE0OTcyMTQ5MTgt/OTM1Mi5qcGVn.jpeg",
-        description: "This beautiful album grows on you. And it's not exactly electronic. That's all I gotta say.",
-        related: {
-            title: "Post",
-            artist: "Bjork",
-            genre: "Alternative",
-            imageUrl: "https://i.discogs.com/0RVhvNQnBcIyQ_bMEObdXuu3fVV62G56Mdcd9SuePFc/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwMjQ4/MS0xNzE2NzM3NTU3/LTkzODMuanBlZw.jpeg",
-            description: "Bjork indulges in her contrasting ideas, very reflective of the cover art."
         }
     },
     {
@@ -83,6 +77,14 @@ export const albums = [
             imageUrl: "https://i.discogs.com/magzKpYFpZOt3jBQlyxci_iMxndbvmmLOyydD90Xc9M/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQzNDc4/MDgtMTM2NTUzMzI1/Ny00MTMyLmpwZWc.jpeg",
             description: "Some of my favorite songs by Frank are on here, and from the start he showed how original and amazing a writer he is."
         }
+    },
+    {
+        title: "BRAT",
+        artist: "Charli XCX",
+        year: 2024,
+        genre: "Electronic",
+        imageUrl: "https://i.discogs.com/ZrlvIb8Ez-rW77vphX39MtrADvKuMhhI46_zioY2gqw/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTMwMzcz/Njg4LTE3MTc3ODYy/MTYtMzcxNy5qcGVn.jpeg",
+        description: "Club bangers that have an emotional side to then, with amazing production and Charli showing off her talent."
     },
     {
         title: "Charli",
@@ -187,6 +189,14 @@ export const albums = [
         description: "The cover does a great job in representing the tone of the album.  Beach House remains possibly my favorite group."
     },
     {
+        title: "Disintegration",
+        artist: "The Cure",
+        year: 1989,
+        genre: "Rock",
+        imageUrl: "https://i.discogs.com/1jYALr8Hr8_7NT7WfoqvJ3budKuuhX_NxhcU89TaZiM/rs:fit/g:sm/q:90/h:595/w:597/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI2NDU4/My0xMTcyNDI2MTgx/LmpwZWc.jpeg",
+        description: "I think this might be the best album of all time, atleast that I've heard. Immersive, emotional, and grand, but it may take a few listens to get into it."
+    },
+    {
         title: "Dummy",
         artist: "Portishead",
         year: 1994,
@@ -231,6 +241,21 @@ export const albums = [
             genre: "Rap",
             imageUrl: "https://i.discogs.com/yL8qGpLh94uXYV1wDtE29Ixp-npLSsjIDuA3Xoc_3BA/rs:fit/g:sm/q:90/h:589/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTE3Mjc3/NjQwLTE2MjQzODk1/MzctNDI5NS5qcGVn.jpeg",
             description: "A more gritty, trap album narrated by Morgan Freeman that exhilarates the street life with its gangster beats and 21’s cold-killer flows and raps."
+        }
+    },
+    {
+        title: "Homogenic",
+        artist: "Bjork",
+        year: 1997,
+        genre: "Electronic",
+        imageUrl: "https://i.discogs.com/RRWB8wK6UGBNcOEIY-jAoW2MCAtItp3DNvA635FPFJQ/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc0MjYz/LTE0OTcyMTQ5MTgt/OTM1Mi5qcGVn.jpeg",
+        description: "This beautiful album grows on you. And it's not exactly electronic. That's all I gotta say.",
+        related: {
+            title: "Post",
+            artist: "Bjork",
+            genre: "Alternative",
+            imageUrl: "https://i.discogs.com/0RVhvNQnBcIyQ_bMEObdXuu3fVV62G56Mdcd9SuePFc/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwMjQ4/MS0xNzE2NzM3NTU3/LTkzODMuanBlZw.jpeg",
+            description: "Bjork indulges in her contrasting ideas, very reflective of the cover art."
         }
     },
     {
@@ -349,6 +374,14 @@ export const albums = [
         genre: "Rock",
         imageUrl: "https://i.discogs.com/Se2X-LCiU5Uawx0JDWR5kpl0S8bnQ3LQp4KoeTMFvoQ/rs:fit/g:sm/q:40/h:300/w:300/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyNzYy/Mi0xMjUwMjA4Njc5/LmpwZWc.jpeg",
         description: "Mbv make guitar noise sound fascinating and entrancing."
+    },
+        {
+        title: "Love Deluxe",
+        artist: "Sade",
+        year: 1992,
+        genre: "R&B",
+        imageUrl: "https://i.discogs.com/p3YnLN9gcUEoFbjkHg0Sd9QNy4WYcsbjgt67WBhWCVM/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI1OTE3/NDYtMTQ5MzczMjc3/Ni01MDkxLmpwZWc.jpeg",
+        description: "Sade's smooth vocals and dreamy-jazzy instrumentation create a lush, romantic atmosphere."
     },
     {
         title: "Mezzanine",
@@ -529,6 +562,14 @@ export const albums = [
         description: "Both melodic and emotional; it's near perfect which is why it's my favorite from the band."
     },
     {
+        title: "Three Cheers for Sweet Revenge",
+        artist: "My Chemical Romance",
+        year: 2004,
+        genre: "Rock",
+        imageUrl: "https://i.discogs.com/HAglwKeMK095cuf0Vo4Ub2u21tmpw2c8LGYtcFjza_4/rs:fit/g:sm/q:90/h:475/w:475/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTUzMzky/Mi0xMTI4NTQ0Mzgz/LmpwZWc.jpeg",
+        description: "Gerard Way brings passionate vocals and theatrical lyrics, backed by energetic playing from the rest of the band. A defining album of the 2000s."
+    },
+    {
         title: "To Pimp A Butterfly",
         artist: "Kendrick Lamar",
         year: 2015,
@@ -559,6 +600,14 @@ export const albums = [
             imageUrl: "https://i.discogs.com/67zYBPJOjXSRxifuHer2F0MBjIEKKvz2wghbxYCJO6Y/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTgyOTY1/MzEtMTU5MDE5ODQy/NS01ODEzLmpwZWc.jpeg",
             description: "Honestly the least I come back to, but this was maybe the first album I got invested in as a kid. It made more into music, which is why I mention it."
         }
+    },
+    {
+        title: "Turn On The Bright Lights",
+        artist: "Interpol",
+        year: 2002,
+        genre: "Rock",
+        imageUrl: "https://i.discogs.com/gzj7yVP4-r1RTGur7Fqf3v-JgT9UEc1F7OmuhSRLV_E/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTYwNDY5/MS0xNDg0NTcwODYy/LTgyNDQuanBlZw.jpeg",
+        description: "Kind of like the Strokes but moodier."
     },
     {
         title: "Twenty One Pilots",

@@ -163,6 +163,41 @@ body {
     color: #888;
 }
 
+/* --- Play Overlay Button --- */
+.album-image-wrapper {
+    position: relative;
+}
+
+.play-overlay-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: white;
+    font-size: 2rem;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.album-image-wrapper:hover .play-overlay-btn {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1.1);
+}
+
+.play-overlay-btn:hover {
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.play-icon {
+    pointer-events: none;
+}
+
 /* --- Filter Bar Styling --- */
 .filter-bar {
     background-color: #f5f5f5;

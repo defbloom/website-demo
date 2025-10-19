@@ -143,18 +143,6 @@ const artistData = [
             text: "Recommended Album"
         }
     },
-        {
-        id: "the-cure",
-        name: "The Cure",
-        image: "https://www.popmatters.com/wp-content/uploads/2021/01/img-1397.jpg",
-        genres: ["Post-Punk", "Gothic Rock"],
-        description: "The Cure are pioneers of the post-punk sound, known for their atmospheric music and Robert Smith's distinctive voice. Not enough good things could be said.",
-        spotifyTrack: "https://open.spotify.com/embed/track/7LX29fM6PhiGf5FDvozQm9?utm_source=generator",
-        recommendedAlbum: {
-            url: "https://open.spotify.com/album/7uUltiwqvVn8Uy23Hdf1kE?si=6lTNoBxuSxWXqJmIHHwRcQ",
-            text: "Recommended Album"
-        }
-    },
     {
         id: "daft-punk",
         name: "Daft Punk",
@@ -224,6 +212,18 @@ const artistData = [
         spotifyTrack: "https://open.spotify.com/embed/track/7ByEDFkz7d7qeLMSZF69cz?utm_source=generator",
         recommendedAlbum: {
             url: "https://open.spotify.com/album/4TgHa0BgOOzLgripJgz1yq?si=EeLhfmLoT2mgqU2N-RjB1g",
+            text: "Recommended Album"
+        }
+    },
+        {
+        id: "interpol",
+        name: "Interpol",
+        image: "https://www.timmcmahan.com/images/interpol1.jpg",
+        genres: ["Post-Punk", "Indie Rock"],
+        description: "Interpol is a prime example of why I love rock. When their instruments lock in together, it makes my brain go whrrrr..",
+        spotifyTrack: "https://open.spotify.com/embed/track/1ZBqJilDGBVYktvlCEo9jC?utm_source=generator",
+        recommendedAlbum: {
+            url: "https://open.spotify.com/album/4sW8Eql2e2kdRP1A1R1clG?si=d4emkuRFT_2dYKpmpFkQwQ",
             text: "Recommended Album"
         }
     },
@@ -475,7 +475,7 @@ const artistData = [
         description: "Rihanna is a global icon known for her versatile music style and powerful vocals. Ririiii.",
         spotifyTrack: "https://open.spotify.com/embed/track/653Dlx3XFh5SkaR7Vy0sYD?utm_source=generator",
         recommendedAlbum: {
-            url: "https://open.spotify.com/album/6dVIqQ8qmQ5GBnJ9shOYGE?si=NNRePB8VS6-mM2sCRhFHuw",
+            url: "https://open.spotify.com/album/3JSWZWeTHF4HDGt5Eozdy7?si=keGzalT5QFe9AiPfbMnhpw",
             text: "Recommended Album"
         }
     },
@@ -549,6 +549,18 @@ const artistData = [
         recommendedAlbum: {
             url: "https://open.spotify.com/album/0ETFjACtuP2ADo6LFhL6HN?si=OdBAIFngQa-49IFKJE9KXQ",
             text: "Recommended Album",
+        }
+    },
+        {
+        id: "the-cure",
+        name: "The Cure",
+        image: "https://www.popmatters.com/wp-content/uploads/2021/01/img-1397.jpg",
+        genres: ["Post-Punk", "Gothic Rock"],
+        description: "The Cure are pioneers of the post-punk sound, known for their atmospheric music and Robert Smith's distinctive voice. Not enough good things could be said.",
+        spotifyTrack: "https://open.spotify.com/embed/track/7LX29fM6PhiGf5FDvozQm9?utm_source=generator",
+        recommendedAlbum: {
+            url: "https://open.spotify.com/album/7uUltiwqvVn8Uy23Hdf1kE?si=6lTNoBxuSxWXqJmIHHwRcQ",
+            text: "Recommended Album"
         }
     },
         {

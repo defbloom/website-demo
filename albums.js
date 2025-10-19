@@ -14,8 +14,16 @@ function displayAlbums(selectedGenre = "All") {
             const hasRelated = album.related && album.related.title;
 
             albumElement.innerHTML = `
-                <div class="card">
-                    <img src="${album.imageUrl}" class="card-img-top" alt="${album.title}">
+                <div class="card position-relative">
+                    <div class="album-image-wrapper">
+                        <img src="${album.imageUrl}" class="card-img-top" alt="${album.title}">
+                        ${album.previewUrl ? `
+                            <button class="play-overlay-btn">
+                                <span class="play-icon">▶️</span>
+                            </button>
+                            <audio src="${album.previewUrl}" preload="none"></audio>
+                        ` : ""}
+                    </div>
                     <div class="card-body">
                         <h5 class="card-title">${album.title}</h5>
                         <p class="card-text">${album.artist}</p>
@@ -38,6 +46,35 @@ function displayAlbums(selectedGenre = "All") {
             `;
 
             albumContainer.appendChild(albumElement);
+
+            // --- Add audio controls if previewUrl exists ---
+            const playBtn = albumElement.querySelector('.play-overlay-btn');
+            if (playBtn) {
+                const audio = albumElement.querySelector('audio');
+                playBtn.addEventListener('click', () => {
+                    // Pause all other audios
+                    document.querySelectorAll('audio').forEach(a => {
+                        if (a !== audio) {
+                            a.pause();
+                            a.closest('.album-card')?.querySelector('.play-icon').textContent = '▶️';
+                        }
+                    });
+
+                    // Toggle play/pause
+                    if (audio.paused) {
+                        audio.play();
+                        playBtn.querySelector('.play-icon').textContent = '⏸️';
+                    } else {
+                        audio.pause();
+                        playBtn.querySelector('.play-icon').textContent = '▶️';
+                    }
+                });
+
+                // Reset icon when audio ends
+                audio.addEventListener('ended', () => {
+                    playBtn.querySelector('.play-icon').textContent = '▶️';
+                });
+            }
         });
 
     // Initialize tooltips after rendering
