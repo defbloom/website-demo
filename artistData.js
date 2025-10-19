@@ -472,7 +472,7 @@ const artistData = [
         name: "Sufjan Stevens",
         image: "https://media.pitchfork.com/photos/59ea4a90462c8a79653fb70f/4:3/w_524,h_393,c_limit/Sufjan487307780.jpg",
         genres: ["Indie Folk", "Baroque Pop"],
-        description: "Sufjan Stevens is a talented multi-instrumentalist blending heartfelt lyrics with lush, orchestral arrangements. He is from Detroit.",
+        description: "Sufjan Stevens is a talented multi-instrumentalist blending heartfelt lyrics with lush, orchestral arrangements. He is from Detroit and most likely gay.",
         spotifyTrack: "https://open.spotify.com/embed/track/12homE4JpBey5cckgoepR7?utm_source=generator",
         recommendedAlbum: {
             url: "https://open.spotify.com/album/1pOl0KEC1iQnA6F0XxV4To?si=UXZJm3w4TqCZYnjMyYwFdA",
@@ -530,7 +530,7 @@ const artistData = [
         {
         id: "artist45",
         name: "The Smashing Pumpkins",
-        image: "https://www.hairandflannel.com/bands/the-smashing-pumpkins.jpg",
+        image: "https://m.media-amazon.com/images/M/MV5BNDU3MzBiYTctMTM3ZC00NTBlLTgyMzMtMDA4ODdjN2MyZmE4XkEyXkFqcGc@._V1_.jpg",
         genres: ["Alternative Rock", "Grunge"],
         description: "Alt-rock legends fusing poetic lyrics with heavy guitars and lush arrangements. I must thank my cool uncle for putting me on.",
         spotifyTrack: "https://open.spotify.com/embed/track/0u5aO1GYsIhAWCPuXdwnak?utm_source=generator",
