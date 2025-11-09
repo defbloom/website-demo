@@ -13,6 +13,25 @@ function displayAlbums(selectedGenre = "All") {
             // Check if related albums exist
             const hasRelated = album.related && album.related.title;
 
+            // --- Build tooltip safely ---
+            let tooltipHTML = "";
+            if (hasRelated) {
+                tooltipHTML = `
+                    <button
+                        type="button"
+                        class="btn btn-outline-info btn-sm related-info"
+                        data-bs-toggle="tooltip"
+                        data-bs-html="true"
+                        title="${`<strong>${album.related.title}</strong><br><em>${album.related.artist}</em><br>
+                                  <img src='${album.related.imageUrl}' alt='${album.related.title}' style='width:100%;border-radius:5px;'>
+                                  <p>${album.related.description}</p>`}"
+                    >
+                        Related Album
+                    </button>
+                `;
+            }
+
+            // --- Build card HTML ---
             albumElement.innerHTML = `
                 <div class="card position-relative">
                     <div class="album-image-wrapper">
@@ -29,18 +48,7 @@ function displayAlbums(selectedGenre = "All") {
                         <p class="card-text">${album.artist}</p>
                         <p class="card-text"><small>${album.year}</small></p>
                         <p class="card-text">${album.description}</p>
-                        ${hasRelated ? `
-                            <button
-                                type="button"
-                                class="btn btn-outline-info btn-sm related-info"
-                                data-bs-toggle="tooltip"
-                                data-bs-html="true"
-                                title="<strong>${album.related.title}</strong><br><em>${album.related.artist}</em><br>
-                                       <img src='${album.related.imageUrl}' alt='${album.related.title}' style='width:100%;border-radius:5px;'>
-                                       <p>${album.related.description}</p>"
-                            >
-                                 Related Album
-                            </button>` : ""}
+                        ${tooltipHTML}
                     </div>
                 </div>
             `;
@@ -77,17 +85,17 @@ function displayAlbums(selectedGenre = "All") {
             }
         });
 
-    // Initialize tooltips after rendering
+    // --- Initialize tooltips after rendering ---
     const tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
     tooltipTriggerList.forEach(tooltipTriggerEl => {
         new bootstrap.Tooltip(tooltipTriggerEl);
     });
 }
 
-// Event listener for genre filter
+// --- Event listener for genre filter ---
 document.getElementById('genre-filter').addEventListener('change', (event) => {
     displayAlbums(event.target.value);
 });
 
-// Initialize the album display when the page loads
+// --- Initialize album display on page load ---
 document.addEventListener('DOMContentLoaded', () => displayAlbums());
