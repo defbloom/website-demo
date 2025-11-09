@@ -560,7 +560,7 @@ const artistData = [
         spotifyTrack: "https://open.spotify.com/embed/track/7LX29fM6PhiGf5FDvozQm9?utm_source=generator",
         recommendedAlbum: {
             url: "https://open.spotify.com/album/7uUltiwqvVn8Uy23Hdf1kE?si=6lTNoBxuSxWXqJmIHHwRcQ",
-            text: "Recommended Album"
+            text: "Recommended Album",
         }
     },
         {
