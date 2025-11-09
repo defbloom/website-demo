@@ -6,8 +6,7 @@ export const albums = [
         year: 2013,
         genre: "Indie",
         imageUrl: "https://i.discogs.com/Chm5h0HMeeFU2ceuWN5uTTuVA4oQ9EAoGIQb3a8Fg0k/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI4NzMw/OTQxLTE2OTg1Mjgw/NTItODg1Ny5qcGVn.jpeg",
-        description: "Reminds me of when I was in Florida. Indie psych rock with  fun melodies.",
-        previewUrl: "https://audio.com/samuel-b-6/audio/feel-better-inner-wave-iii-1"
+        description: "Reminds me of when I was in Florida. Indie psych rock with  fun melodies."
     },
     {
         title: "Abbey Road",
