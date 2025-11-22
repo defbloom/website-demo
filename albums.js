@@ -13,51 +13,46 @@ function displayAlbums(selectedGenre = "All") {
             // Check if related albums exist
             const hasRelated = album.related && album.related.title;
 
-            // --- Build tooltip safely ---
-            let tooltipHTML = "";
-            if (hasRelated) {
-                tooltipHTML = `
-                    <button
-                        type="button"
-                        class="btn btn-outline-info btn-sm related-info"
-                        data-bs-toggle="tooltip"
-                        data-bs-html="true"
-                        title="${`<strong>${album.related.title}</strong><br><em>${album.related.artist}</em><br>
-                                  <img src='${album.related.imageUrl}' alt='${album.related.title}' style='width:100%;border-radius:5px;'>
-                                  <p>${album.related.description}</p>`}"
-                    >
-                        Related Album
-                    </button>
-                `;
-            }
-
-            // --- Build card HTML ---
-            albumElement.innerHTML =
-                <div class="card">
-                    <img src="${album.imageUrl}" class="card-img-top" alt="${album.title}">`
-                <div class="card-body">
+            albumElement.innerHTML = `
+                <div class="card position-relative">
+                    <img src="${album.imageUrl}" class="card-img-top" alt="${album.title}">
+                    <div class="card-body">
                         <h5 class="card-title">${album.title}</h5>
                         <p class="card-text">${album.artist}</p>
                         <p class="card-text"><small>${album.year}</small></p>
                         <p class="card-text">${album.description}</p>
-                        ${tooltipHTML}
+                        ${hasRelated ? `
+                            <button
+                                type="button"
+                                class="btn btn-outline-info btn-sm related-info"
+                                data-bs-toggle="tooltip"
+                                data-bs-html="true"
+                                title="${`<strong>${album.related.title}</strong><br><em>${album.related.artist}</em><br>
+                                          <img src='${album.related.imageUrl}' alt='${album.related.title}' style='width:100%;border-radius:5px;'>
+                                          <p>${album.related.description}</p>`}"
+                            >
+                                Related Album
+                            </button>
+                        ` : ""}
+                    </div>
                 </div>
             `;
 
             albumContainer.appendChild(albumElement);
         });
 
-    // --- Initialize tooltips after rendering ---
+    // Initialize tooltips after rendering
     const tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'));
     tooltipTriggerList.forEach(tooltipTriggerEl => {
         new bootstrap.Tooltip(tooltipTriggerEl);
     });
 }
 
-// --- Event listener for genre filter ---
+// Event listener for genre filter
 document.getElementById('genre-filter').addEventListener('change', (event) => {
     displayAlbums(event.target.value);
 });
 
-// --- Initialize album display on page load ---
+// Initialize album display
 document.addEventListener('DOMContentLoaded', () => displayAlbums());
+
